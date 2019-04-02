@@ -1,0 +1,4 @@
+train  = data_folder/train.txt
+valid  = data_folder/valid.txt
+names = data/duckie-multi.names
+backup = duckie_backup
