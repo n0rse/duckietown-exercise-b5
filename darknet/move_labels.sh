@@ -1,12 +1,16 @@
 #!/bin/bash
 
-#for filename in non_blurry_folder/frames/*.jpg
-#do
-#        if test -f non_blurry_folder/frames/$filename
-#        	echo $filename
-#            then cp data_4_classes/labels/$filename non_blurry_folder/labels/$filename
-#        fi
-#done
+mkdir non_blurry_folder/frames/
+mkdir non_blurry_folder/labels/
+
+cd non_blurry_folder
+
+for orig_image in *.jpg
+do
+    mv $orig_image frames/$orig_image
+done
+
+cd ..
 
 cd non_blurry_folder/frames/
 for filename in *.jpg
