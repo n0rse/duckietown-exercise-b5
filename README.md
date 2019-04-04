@@ -32,7 +32,7 @@ This contains all of our class names and is used in the names parameter in the d
     train  = data_folder/train.txt\
     valid  = data_folder/valid.txt\
     names = class_names.names\
-    backup = duckie_backu2
+    backup = duckie_backup
 
 This data_file specifies the data to use while training. This follows the YOLO Convention.
 
