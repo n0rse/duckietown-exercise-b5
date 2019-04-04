@@ -20,18 +20,18 @@
 
 10. Create the class_name file to be used in the next step for the names ```touch class_names.names``` and add the following lines to it:
 
-    bot
-    duckie
-    stop_sign
+    bot\
+    duckie\
+    stop_sign\
     road_sign
 
 This contains all of our class names and is used in the names parameter in the data_file that we'll create next.
 
 10. Create the data_file in the root with the following command: ```touch data_file``` and add the following lines to it:
 
-    train  = data_folder/train.txt
-    valid  = data_folder/valid.txt
-    names = class_names.names
+    train  = data_folder/train.txt\
+    valid  = data_folder/valid.txt\
+    names = class_names.names\
     backup = duckie_backu2
 
 This data_file specifies the data to use while training. This follows the YOLO Convention.
