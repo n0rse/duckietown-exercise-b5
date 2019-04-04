@@ -1,7 +1,7 @@
 # duckietown-exercise-b5
 # Steps
 1. Install required python dependencies ```pip install opencv-python easygui```
-2. Clone the github repository: ```https://github.com/marquezo/darknet```
+2. Clone the github repository: ```https://github.com/jorgeluceda/duckietown-exercise-b5```
 
 3.  Uncompress the included data_4_classes.tar.gz file, which is our dataset ```tar -xf data_4_classes.tar.gz```
 
